@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:id="@+id/selcte_city"
     android:background="@drawable/backgroundmainscreen"
-    tools:context="com.saudi_restaurants_and_cafes.android.Ui.SelectTown.SelectTown">
+    tools:context="com.Restaurants_App.android.Ui.SelectTown.SelectTown">
 
     <RelativeLayout
         android:visibility="gone"

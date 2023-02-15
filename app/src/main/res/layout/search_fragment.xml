@@ -6,7 +6,7 @@
     android:background="@color/white"
     android:id="@+id/search_fragment"
     android:layout_height="match_parent"
-    tools:context="com.saudi_restaurants_and_cafes.android.Ui.Search.Search">
+    tools:context="com.Restaurants_App.android.Ui.Search.Search">
 
 
     <LinearLayout

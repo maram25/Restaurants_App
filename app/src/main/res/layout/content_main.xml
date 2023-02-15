@@ -21,7 +21,6 @@
     <LinearLayout
         android:layout_width="@dimen/_70ssp"
         android:layout_height="@dimen/_60ssp"
-        android:background="@drawable/background1"
         android:gravity="end"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -32,8 +31,10 @@
             android:layout_height="@dimen/_33ssp"
             android:layout_margin="@dimen/_14ssp"
             android:background="@drawable/icon_gray_circle"
+            android:backgroundTint="@color/green_text"
             android:padding="@dimen/_10ssp"
-            android:src="@drawable/icon_menu">
+            android:src="@drawable/icon_menu"
+            app:tint="@color/white">
 
         </ImageView>
     </LinearLayout>

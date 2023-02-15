@@ -6,18 +6,18 @@
     app:startDestination="@+id/nav_home_map">
     <fragment
         android:id="@+id/nav_home_map"
-        android:name="com.saudi_restaurants_and_cafes.android.Ui.Home.HomeFragment"
+        android:name="com.Restaurants_App.android.Ui.Home.HomeFragment"
         android:label="@string/menu_home"
         tools:layout="@layout/home_fragment" />
 
     <fragment
         android:id="@+id/Get_help"
-        android:name="com.saudi_restaurants_and_cafes.android.Ui.GetHelp.GetHelp"
+        android:name="com.Restaurants_App.android.Ui.GetHelp.GetHelp"
         android:label="@string/menu_help"
         tools:layout="@layout/get_help_fragment" />
     <fragment
         android:id="@+id/restaurant_fragment"
-        android:name="com.saudi_restaurants_and_cafes.android.Ui.Restaurant.RestaurantFragment"
+        android:name="com.Restaurants_App.android.Ui.Restaurant.RestaurantFragment"
         android:label="@string/menu_help"
         tools:layout="@layout/restaurant_fragment" />
 

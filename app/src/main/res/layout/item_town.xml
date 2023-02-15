@@ -15,5 +15,5 @@
         android:gravity="center"
         android:textColor="@color/green_dark2"
         android:textSize="@dimen/_12ssp"
-        android:text="وادي الدواسر" />
+        android:text="القاهره " />
 </com.google.android.material.circularreveal.CircularRevealFrameLayout>

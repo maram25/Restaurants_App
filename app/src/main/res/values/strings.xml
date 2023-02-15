@@ -1,17 +1,9 @@
 <resources>
-    <string name="app_name">مطاعم و كافيهات</string>
-<!--
-    <string name="app_name">Saudi-restaurants-and-cafes</string>
--->
+    <string name="app_name"> Restaurants App </string>
+
     <string name="menu_home">Home</string>
     <string name="menu_help">GetHelp</string>
 
-    <string name="admob_app_id">
-ca-app-pub-3940256099942544~3347511713</string>
-    <string name="admob_banner_id">
-ca-app-pub-9739571586618472/7371247694</string>
 
-    <string name="admob_full_id">
-ca-app-pub-9739571586618472/7412266837</string>
 
 </resources>

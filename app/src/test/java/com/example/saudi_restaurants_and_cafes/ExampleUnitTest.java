@@ -1,4 +1,4 @@
-package com.saudi_restaurants_and_cafes.andriod;
+package com.Restaurants_App.andriod;
 
 import org.junit.Test;
 
