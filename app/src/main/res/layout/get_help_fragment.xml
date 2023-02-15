@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.saudi_restaurants_and_cafes.android.Ui.GetHelp.GetHelp">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_44ssp"
+        android:layout_marginLeft="@dimen/_75ssp"
+        android:layout_marginTop="@dimen/_16ssp"
+        android:layout_marginRight="@dimen/_75ssp"
+        android:background="@drawable/titlerestaurant"
+        android:fontFamily="@font/noor_bold"
+        android:gravity="center"
+        android:textSize="@dimen/_14ssp"
+        android:text="احصل علي المساعدة"
+        android:textColor="@color/green_dark2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/iv_phonenumber"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_27ssp"
+        android:layout_marginLeft="@dimen/_25ssp"
+        android:layout_marginTop="@dimen/_15ssp"
+        android:inputType="number"
+
+        android:layout_marginRight="@dimen/_25ssp"
+        android:paddingLeft="@dimen/_10ssp"
+        android:paddingRight="@dimen/_10ssp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_phonenumber"
+        android:background="@drawable/help1"
+ />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/_10ssp"
+        android:paddingBottom="@dimen/_10ssp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="@dimen/_25ssp"
+            android:layout_height="@dimen/_20ssp"
+            android:layout_marginStart="8dp"
+            app:srcCompat="@drawable/hi"
+            tools:src="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/tv_hello"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/noor_bold"
+            android:text="مرحبآ"
+            android:textAlignment="center"
+            android:textColor="@color/green_dark2"
+            android:textSize="@dimen/_15ssp" />
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/tv_Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/_25ssp"
+        android:fontFamily="@font/noor_bold"
+        android:text="الاسم"
+        android:textColor="@color/green_dark2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+    <TextView
+        android:id="@+id/tv_phonenumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_25ssp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="@dimen/_25ssp"
+        android:fontFamily="@font/noor_bold"
+        android:text="رقم الهاتف"
+        android:textColor="@color/green_dark2"
+        android:textSize="@dimen/_12ssp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_name" />
+
+    <EditText
+        android:id="@+id/iv_name"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_27ssp"
+        android:layout_marginLeft="@dimen/_25ssp"
+        android:layout_marginTop="@dimen/_15ssp"
+        android:layout_marginRight="@dimen/_25ssp"
+        android:paddingLeft="@dimen/_10ssp"
+        android:paddingRight="@dimen/_10ssp"
+        android:background="@drawable/help1"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_Name" />
+
+    <TextView
+        android:id="@+id/tv_needhelp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_25ssp"
+        android:fontFamily="@font/noor_bold"
+        android:textColor="@color/green_dark2"
+        android:textSize="@dimen/_12ssp"
+        android:text="كيف يمكن المساعدة"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_phonenumber" />
+
+    <EditText
+        android:id="@+id/iv_help"
+        android:layout_width="match_parent"
+        android:layout_height="182dp"
+        android:layout_marginLeft="@dimen/_25ssp"
+        android:layout_marginTop="@dimen/_15ssp"
+        android:layout_marginRight="@dimen/_25ssp"
+        android:background="@drawable/help2"
+        android:paddingLeft="@dimen/_10ssp"
+        android:gravity="start|center_horizontal"
+        android:hint="اكتب رسالتك هنا من فضلك"
+        android:paddingRight="@dimen/_10ssp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_needhelp" />
+
+
+    <TextView
+        android:id="@+id/tv_sendhelp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_30ssp"
+        android:layout_marginLeft="@dimen/_100ssp"
+        android:layout_marginRight="@dimen/_100ssp"
+        android:layout_marginBottom="@dimen/_70ssp"
+        android:background="@drawable/send"
+        android:fontFamily="@font/noor_bold"
+        android:gravity="center"
+        android:text="ارسال"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_90ssp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginBottom="-20dp"
+        app:srcCompat="@drawable/bg2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

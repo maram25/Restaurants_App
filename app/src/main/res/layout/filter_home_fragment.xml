@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/filter_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.saudi_restaurants_and_cafes.android.Ui.FilterHome.FilterHome">
+
+    <RelativeLayout
+        android:id="@+id/Progress"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <include
+            layout="@layout/progress_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </include>
+
+    </RelativeLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/Layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30ssp"
+            android:layout_marginTop="@dimen/_10ssp"
+            android:layout_marginEnd="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+            <ImageView
+                android:id="@+id/restrant"
+                android:layout_width="@dimen/_25ssp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:src="@drawable/res_bg">
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="5dp"
+                android:layout_toStartOf="@+id/restrant"
+                android:fontFamily="@font/noor_bold"
+                android:gravity="center"
+                android:text="التصنيفات"
+                android:textColor="@color/green_dark2"
+                android:textSize="@dimen/_12ssp">
+
+            </TextView>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40ssp"
+            android:layout_marginLeft="@dimen/_5ssp"
+            android:layout_marginTop="@dimen/_12ssp"
+            android:layout_marginRight="@dimen/_65ssp"
+            android:weightSum="5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/search"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:background="@drawable/icon_gray_circle"
+                android:padding="@dimen/_11ssp"
+                android:src="@drawable/search_icon" />
+
+            <ImageView
+                android:id="@+id/iv_arrange"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:background="@drawable/icon_gray_circle"
+                android:padding="@dimen/_13ssp"
+                android:src="@drawable/n1"
+                app:srcCompat="@drawable/n1" />
+
+            <RelativeLayout
+                android:id="@+id/location"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/white_button">
+
+                <TextView
+                    android:id="@+id/citye"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginRight="@dimen/_10ssp"
+                    android:layout_toEndOf="@+id/pic"
+                    android:fontFamily="@font/noor_bold"
+                    android:gravity="center"
+                    android:textColor="@color/green_dark2"
+                    android:textSize="@dimen/_12ssp">
+
+                </TextView>
+
+                <ImageView
+                    android:id="@+id/pic"
+                    android:layout_width="@dimen/_20ssp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="@dimen/_16ssp"
+                    android:src="@drawable/pick_location">
+
+                </ImageView>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout6"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_33ssp"
+            android:layout_marginLeft="@dimen/_20ssp"
+            android:layout_marginRight="@dimen/_20ssp"
+            android:background="@drawable/curved_solid_color"
+            android:backgroundTint="@color/light_gray"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.4"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/relativeLayout2">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rc_filter"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+            />
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/Restaurantsf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10ssp"
+            android:layout_marginBottom="@dimen/_100ssp"
+            android:paddingBottom="@dimen/_100ssp"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout6" />
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_90ssp"
+            android:layout_marginBottom="-18dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/bg2" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

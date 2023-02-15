@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/_40ssp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/Home"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_30ssp"
+        android:gravity="end"
+        android:layout_marginStart="@dimen/_15ssp"
+        android:layout_marginEnd="@dimen/_15ssp"
+        android:paddingStart="@dimen/_5ssp"
+        android:onClick="onItemSelected">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/_5ssp"
+            android:text="الرئسيه"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_15ssp"
+            android:textStyle="bold">
+        </TextView>
+        <ImageView
+            android:layout_width="@dimen/_16ssp"
+            android:layout_height="@dimen/_16ssp"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/_6ssp"
+            android:src="@drawable/icon_home">
+        </ImageView>
+    </LinearLayout>
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_margin="@dimen/_10ssp"
+        android:background="@color/white"
+     />
+
+    <LinearLayout
+        android:id="@+id/About_app"
+        android:gravity="end"
+
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_30ssp"
+        android:layout_marginStart="@dimen/_15ssp"
+        android:layout_marginEnd="@dimen/_15ssp"
+        android:onClick="onItemSelected"
+        android:paddingStart="@dimen/_5ssp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/_5ssp"
+            android:text="حول التطبيق"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_15ssp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <ImageView
+            android:layout_width="@dimen/_16ssp"
+            android:layout_height="@dimen/_16ssp"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/_6ssp"
+            android:src="@drawable/icon_about_app">
+
+        </ImageView>
+    </LinearLayout>
+    <View
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_margin="@dimen/_10ssp"
+        android:background="@color/white"
+        />
+
+    <LinearLayout
+        android:id="@+id/Privacy"
+        android:gravity="end"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_30ssp"
+        android:layout_marginStart="@dimen/_15ssp"
+        android:layout_marginEnd="@dimen/_15ssp"
+        android:onClick="onItemSelected"
+        android:paddingStart="@dimen/_5ssp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/_5ssp"
+            android:text="سياسه الخصوصيه"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_15ssp"
+            android:textStyle="bold">
+        </TextView>
+
+        <ImageView
+            android:layout_width="@dimen/_16ssp"
+            android:layout_height="@dimen/_16ssp"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/_6ssp"
+            android:src="@drawable/icon_polcie">
+
+        </ImageView>
+    </LinearLayout>
+    <View
+        android:id="@+id/view3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_margin="@dimen/_10ssp"
+        android:background="@color/white"
+        />
+
+    <LinearLayout
+        android:id="@+id/Help"
+        android:gravity="end"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_30ssp"
+        android:layout_marginStart="@dimen/_15ssp"
+        android:layout_marginEnd="@dimen/_15ssp"
+        android:onClick="onItemSelected"
+        android:paddingStart="@dimen/_5ssp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/_5ssp"
+            android:text="مساعده"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_15ssp"
+            android:textStyle="bold">
+        </TextView>
+        <ImageView
+            android:layout_width="@dimen/_16ssp"
+            android:layout_height="@dimen/_16ssp"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/_6ssp"
+            android:src="@drawable/icon_help">
+        </ImageView>
+    </LinearLayout>
+    <View
+        android:id="@+id/view4"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_margin="@dimen/_10ssp"
+        android:background="@color/white"
+        />
+
+    <LinearLayout
+        android:id="@+id/share"
+        android:gravity="end"
+
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_30ssp"
+        android:layout_marginStart="@dimen/_15ssp"
+        android:layout_marginEnd="@dimen/_15ssp"
+        android:onClick="onItemSelected"
+        android:paddingStart="@dimen/_5ssp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/_5ssp"
+            android:text="مشاركه التطبيق"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_15ssp"
+            android:textStyle="bold">
+        </TextView>
+        <ImageView
+            android:layout_width="@dimen/_16ssp"
+            android:layout_height="@dimen/_16ssp"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/_6ssp"
+            android:src="@drawable/icon_share">
+        </ImageView>
+    </LinearLayout>
+
+
+</LinearLayout>

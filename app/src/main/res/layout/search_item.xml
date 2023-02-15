@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/item_search"
+    android:layout_height="wrap_content">
+
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/iv_restPhoto"
+        android:layout_width="@dimen/_65ssp"
+        android:layout_height="@dimen/_65ssp"
+        android:adjustViewBounds="true"
+        android:padding="@dimen/_6ssp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/mak"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shapeAppearanceOverlay="@style/roundedImageView" />
+
+    <TextView
+        android:id="@+id/tv_restName"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:fontFamily="@font/noor_bold"
+        android:gravity="center|right"
+        android:layout_margin="@dimen/_5ssp"
+android:textSize="@dimen/_12ssp"
+        android:textColor="@color/green_dark2"
+        android:text="بافلو برجر"
+        app:layout_constraintEnd_toStartOf="@+id/iv_restPhoto"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_underTit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/noor_regular"
+        android:layout_margin="@dimen/_5ssp"
+        android:gravity="start"
+        android:textColor="@color/green_dark2"
+        android:textSize="@dimen/_10ssp"
+        android:text="البرجر و الوجبات السريعة"
+        app:layout_constraintEnd_toStartOf="@+id/iv_restPhoto"
+        app:layout_constraintTop_toBottomOf="@+id/tv_restName" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/light_gray"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="26dp">
+
+    </View>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

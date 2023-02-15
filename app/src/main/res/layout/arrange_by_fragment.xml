@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.saudi_restaurants_and_cafes.android.Ui.ArrangeBy.ArrangeBy">
+<!--
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="29dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/iv_aline1"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TouchTargetSizeCheck" />-->
+
+    <!--
+    <CheckBox
+        android:id="@+id/checkBox5"
+        android:layout_width="29dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/aline4"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TouchTargetSizeCheck" />-->
+
+<!--    <CheckBox
+        android:id="@+id/checkBox4"
+        android:layout_width="29dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/aline2"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TouchTargetSizeCheck" />-->
+
+
+    <TextView
+        android:id="@+id/tv_arrangeTittle"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_44ssp"
+        android:layout_marginLeft="@dimen/_75ssp"
+        android:layout_marginTop="@dimen/_16ssp"
+        android:layout_marginRight="@dimen/_75ssp"
+        android:background="@drawable/titlerestaurant"
+        android:fontFamily="@font/noor_bold"
+        android:textColor="@color/green_dark2"
+        android:gravity="center"
+        android:textSize="@dimen/_14ssp"
+        android:text="ترتيب حسب"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_arrange1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="24dp"
+        android:fontFamily="@font/noor_bold"
+        android:text="الاكثر تقييم"
+        android:textColor="@color/green_dark2"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_arrangeTittle" />
+
+    <TextView
+        android:id="@+id/tv_arrange2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="@font/noor_bold"
+        android:text="الاعلي بحث"
+        android:textColor="@color/green_dark2"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_aline1" />
+
+    <ImageView
+        android:id="@+id/iv_aline1"
+        android:layout_width="351dp"
+        android:layout_height="11dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="24dp"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_arrange1"
+        app:srcCompat="@drawable/line2"
+        tools:src="@tools:sample/avatars" />
+
+    <ImageView
+        android:id="@+id/aline2"
+
+        android:layout_width="351dp"
+        android:layout_height="11dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="24dp"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_arrange2"
+        app:srcCompat="@drawable/line2"
+        tools:src="@tools:sample/avatars" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_90ssp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginBottom="-20dp"
+        app:srcCompat="@drawable/bg2" />
+<!--    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="29dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/aline3"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TouchTargetSizeCheck" />-->
+
+
+    <TextView
+        android:id="@+id/tv_buttomArrange"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_36ssp"
+        android:background="@drawable/send"
+        android:fontFamily="@font/noor_bold"
+        android:scaleType="fitXY"
+        android:gravity="center"
+        android:layout_margin="@dimen/_90ssp"
+        android:text="عرض النتائج"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="76dp"
+        android:layout_height="106dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_arrangeTittle">
+
+        <RadioButton
+            android:id="@+id/rate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_20ssp">
+
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/search"
+            android:layout_width="wrap_content"
+            android:layout_height="58dp"
+            android:layout_marginStart="@dimen/_20ssp"
+            tools:ignore="TouchTargetSizeCheck">
+
+        </RadioButton>
+    </RadioGroup>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "321619025270",
+    "project_id": "saudi-restaurants-and-cafes",
+    "storage_bucket": "saudi-restaurants-and-cafes.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:321619025270:android:7c912e28099aa217aeae57",
+        "android_client_info": {
+          "package_name": "com.saudi_restaurants_and_cafes.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "321619025270-m4nf3r70mnfbc51een2s4pjtkabmuvqt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAEFsXsZry1wJN-2IStbOsDNQ8cEneTK4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "321619025270-m4nf3r70mnfbc51een2s4pjtkabmuvqt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

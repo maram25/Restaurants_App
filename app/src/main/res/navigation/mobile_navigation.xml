@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mobile_navigation"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@+id/nav_home_map">
+    <fragment
+        android:id="@+id/nav_home_map"
+        android:name="com.saudi_restaurants_and_cafes.android.Ui.Home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/home_fragment" />
+
+    <fragment
+        android:id="@+id/Get_help"
+        android:name="com.saudi_restaurants_and_cafes.android.Ui.GetHelp.GetHelp"
+        android:label="@string/menu_help"
+        tools:layout="@layout/get_help_fragment" />
+    <fragment
+        android:id="@+id/restaurant_fragment"
+        android:name="com.saudi_restaurants_and_cafes.android.Ui.Restaurant.RestaurantFragment"
+        android:label="@string/menu_help"
+        tools:layout="@layout/restaurant_fragment" />
+
+
+</navigation>

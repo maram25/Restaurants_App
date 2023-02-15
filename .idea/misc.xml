@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Maram abdelmageed/Downloads/Saudi-restaurants-and-cafes/app/src/main/res/drawable/curve_primary_colore.xml" value="0.2703125" />
+        <entry key="..\:/Users/Maram abdelmageed/Downloads/Saudi-restaurants-and-cafes/app/src/main/res/drawable/curved_solid_color.xml" value="0.2703125" />
+        <entry key="..\:/Users/Maram abdelmageed/Downloads/Saudi-restaurants-and-cafes/app/src/main/res/drawable/custom_cheekbox.xml" value="0.2703125" />
+        <entry key="..\:/Users/Maram abdelmageed/Downloads/Saudi-restaurants-and-cafes/app/src/main/res/drawable/drawer_menu_bg.xml" value="0.2703125" />
+        <entry key="..\:/Users/Maram abdelmageed/Downloads/Saudi-restaurants-and-cafes/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2359375" />
+        <entry key="..\:/Users/Maram abdelmageed/Downloads/Saudi-restaurants-and-cafes/app/src/main/res/font/font.xml" value="0.2703125" />
+        <entry key="..\:/Users/Maram abdelmageed/Downloads/Saudi-restaurants-and-cafes/app/src/main/res/layout/about_us_fragment.xml" value="0.264" />
+        <entry key="..\:/Users/Maram abdelmageed/Downloads/Saudi-restaurants-and-cafes/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/Maram abdelmageed/Downloads/Saudi-restaurants-and-cafes/app/src/main/res/layout/activity_show_ads.xml" value="0.20208333333333334" />
+        <entry key="..\:/Users/Maram abdelmageed/Downloads/Saudi-restaurants-and-cafes/app/src/main/res/layout/activity_splash.xml" value="0.1765625" />
+        <entry key="..\:/Users/Maram abdelmageed/Downloads/Saudi-restaurants-and-cafes/app/src/main/res/layout/app_bar_main.xml" value="0.15625" />
+        <entry key="..\:/Users/Maram abdelmageed/Downloads/Saudi-restaurants-and-cafes/app/src/main/res/layout/arrange_by_fragment.xml" value="0.152" />
+        <entry key="..\:/Users/Maram abdelmageed/Downloads/Saudi-restaurants-and-cafes/app/src/main/res/layout/content_main.xml" value="0.176" />
+        <entry key="..\:/Users/Maram abdelmageed/Downloads/Saudi-restaurants-and-cafes/app/src/main/res/layout/drawer_menu.xml" value="0.176" />
+        <entry key="..\:/Users/Maram abdelmageed/Downloads/Saudi-restaurants-and-cafes/app/src/main/res/layout/filter_fragment.xml" value="0.264" />
+        <entry key="..\:/Users/Maram abdelmageed/Downloads/Saudi-restaurants-and-cafes/app/src/main/res/layout/filter_home_fragment.xml" value="0.176" />
+        <entry key="..\:/Users/Maram abdelmageed/Downloads/Saudi-restaurants-and-cafes/app/src/main/res/layout/get_help_fragment.xml" value="0.264" />
+        <entry key="..\:/Users/Maram abdelmageed/Downloads/Saudi-restaurants-and-cafes/app/src/main/res/layout/home_fragment.xml" value="0.1" />
+        <entry key="..\:/Users/Maram abdelmageed/Downloads/Saudi-restaurants-and-cafes/app/src/main/res/layout/item_brand.xml" value="0.264" />
+        <entry key="..\:/Users/Maram abdelmageed/Downloads/Saudi-restaurants-and-cafes/app/src/main/res/layout/item_filter.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Maram abdelmageed/Downloads/Saudi-restaurants-and-cafes/app/src/main/res/layout/item_recycler_menu_images.xml" value="0.264" />
+        <entry key="..\:/Users/Maram abdelmageed/Downloads/Saudi-restaurants-and-cafes/app/src/main/res/layout/item_restaurants.xml" value="0.264" />
+        <entry key="..\:/Users/Maram abdelmageed/Downloads/Saudi-restaurants-and-cafes/app/src/main/res/layout/item_town.xml" value="0.152" />
+        <entry key="..\:/Users/Maram abdelmageed/Downloads/Saudi-restaurants-and-cafes/app/src/main/res/layout/layout_menue.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Maram abdelmageed/Downloads/Saudi-restaurants-and-cafes/app/src/main/res/layout/privacy_policy_fragment.xml" value="0.128" />
+        <entry key="..\:/Users/Maram abdelmageed/Downloads/Saudi-restaurants-and-cafes/app/src/main/res/layout/progress_bar.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Maram abdelmageed/Downloads/Saudi-restaurants-and-cafes/app/src/main/res/layout/rating_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Maram abdelmageed/Downloads/Saudi-restaurants-and-cafes/app/src/main/res/layout/rating_popup.xml" value="0.176" />
+        <entry key="..\:/Users/Maram abdelmageed/Downloads/Saudi-restaurants-and-cafes/app/src/main/res/layout/restaurant_fragment.xml" value="0.42178046672428693" />
+        <entry key="..\:/Users/Maram abdelmageed/Downloads/Saudi-restaurants-and-cafes/app/src/main/res/layout/search_fragment.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Maram abdelmageed/Downloads/Saudi-restaurants-and-cafes/app/src/main/res/layout/search_item.xml" value="0.19791666666666666" />
+        <entry key="..\:/Users/Maram abdelmageed/Downloads/Saudi-restaurants-and-cafes/app/src/main/res/layout/select_town_fragment.xml" value="0.264" />
+        <entry key="..\:/Users/Maram abdelmageed/Downloads/Saudi-restaurants-and-cafes/app/src/main/res/layout/shimmer_frame_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Maram abdelmageed/Downloads/Saudi-restaurants-and-cafes/app/src/main/res/layout/shimmer_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Maram abdelmageed/Downloads/Saudi-restaurants-and-cafes/app/src/main/res/layout/spinner_item.xml" value="0.16354166666666667" />
+        <entry key="..\:/Users/Maram abdelmageed/Downloads/Saudi-restaurants-and-cafes/app/src/main/res/layout/tasnif_item.xml" value="0.264" />
+        <entry key="..\:/Users/Maram abdelmageed/Downloads/Saudi-restaurants-and-cafes/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1574074074074074" />
+        <entry key="..\:/Users/Maram abdelmageed/Downloads/Saudi-restaurants-and-cafes/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1574074074074074" />
+        <entry key="..\:/Users/Omar/Desktop/restr final v/Saudi-restaurants-and-cafes/app/src/main/res/layout/arrange_by_fragment.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Omar/Desktop/restr final v/Saudi-restaurants-and-cafes/app/src/main/res/layout/filter_fragment.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Omar/Desktop/restr final v/Saudi-restaurants-and-cafes/app/src/main/res/layout/filter_home_fragment.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Omar/Desktop/restr final v/Saudi-restaurants-and-cafes/app/src/main/res/layout/get_help_fragment.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Omar/Desktop/restr final v/Saudi-restaurants-and-cafes/app/src/main/res/layout/home_fragment.xml" value="0.33" />
+        <entry key="..\:/Users/Omar/Desktop/restr final v/Saudi-restaurants-and-cafes/app/src/main/res/layout/item_filter.xml" value="0.2851851851851852" />
+        <entry key="..\:/Users/Omar/Desktop/restr final v/Saudi-restaurants-and-cafes/app/src/main/res/layout/item_restaurants.xml" value="0.33" />
+        <entry key="..\:/Users/Omar/Desktop/restr final v/Saudi-restaurants-and-cafes/app/src/main/res/layout/layout_menue.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Omar/Desktop/restr final v/Saudi-restaurants-and-cafes/app/src/main/res/layout/rating_popup.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Omar/Desktop/restr final v/Saudi-restaurants-and-cafes/app/src/main/res/layout/restaurant_fragment.xml" value="0.5" />
+        <entry key="..\:/Users/Omar/Desktop/restr final v/Saudi-restaurants-and-cafes/app/src/main/res/layout/search_fragment.xml" value="0.33" />
+        <entry key="..\:/Users/Omar/Desktop/restr final v/Saudi-restaurants-and-cafes/app/src/main/res/layout/search_item.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Omar/Desktop/restr final v/Saudi-restaurants-and-cafes/app/src/main/res/layout/tasnif_item.xml" value="0.2898148148148148" />
+        <entry key="..\:/Users/Omar/Desktop/work egy des/old/lastversion/app/src/main/res/layout/filter_fragment.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Omar/Desktop/work egy des/old/lastversion/app/src/main/res/layout/filter_home_fragment.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Omar/Desktop/work egy des/old/lastversion/app/src/main/res/layout/get_help_fragment.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Omar/Desktop/work egy des/old/lastversion/app/src/main/res/layout/home_fragment.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Omar/Desktop/work egy des/old/lastversion/app/src/main/res/layout/restaurant_fragment.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Omar/Desktop/work egy des/old/lastversion/app/src/main/res/layout/select_town_fragment.xml" value="0.36666666666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

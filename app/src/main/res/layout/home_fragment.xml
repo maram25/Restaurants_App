@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:id="@+id/home"
+    tools:context="com.saudi_restaurants_and_cafes.android.Ui.Home.HomeFragment">
+    <!--<Button
+        android:id="@+id/btnhome1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_80ssp"
+        android:text="Home Page"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnhome2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Filter Page"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnhome1" />
+
+    <Button
+        android:id="@+id/btnhome3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Restaurant page"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnhome2" />
+
+    <Button
+        android:id="@+id/btnhome4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="help"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnhome3" />
+
+    <Button
+        android:id="@+id/btnhome5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Arrange by"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnhome4" />
+
+    <Button
+        android:id="@+id/btnhome6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Sort By"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnhome5" />-->
+
+
+    <RelativeLayout
+        android:visibility="gone"
+        android:id="@+id/Progress"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            layout="@layout/progress_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </include>
+
+    </RelativeLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/Layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40ssp"
+        android:layout_marginLeft="@dimen/_5ssp"
+        android:layout_marginTop="@dimen/_12ssp"
+        android:layout_marginRight="@dimen/_65ssp"
+        android:weightSum="5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:background="@drawable/icon_gray_circle"
+            android:padding="@dimen/_11ssp"
+            android:src="@drawable/search_icon" />
+
+        <ImageView
+            android:id="@+id/iv_arrange"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="@drawable/icon_gray_circle"
+            android:padding="@dimen/_12ssp"
+            android:src="@drawable/filter_icon" />
+
+        <RelativeLayout
+            android:id="@+id/location"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/white_button">
+
+            <TextView
+                android:id="@+id/citye"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="@dimen/_10ssp"
+                android:layout_toEndOf="@+id/pic"
+                android:fontFamily="@font/noor_bold"
+                android:gravity="center"
+                android:text="مكه"
+                android:textColor="@color/green_dark2"
+                android:textSize="@dimen/_12ssp">
+
+            </TextView>
+            <!-- <com.toptoche.searchablespinnerlibrary.SearchableSpinner
+                 android:id="@+id/city"
+                 android:layout_width="wrap_content"
+                 android:layout_height="match_parent"
+                 android:layout_alignParentEnd="true"
+                 android:layout_marginRight="@dimen/_5ssp"
+                 android:layout_toEndOf="@+id/pic"
+                 android:fontFamily="@font/noor_bold"
+                 android:outlineAmbientShadowColor="@color/green_dark"
+                 android:outlineSpotShadowColor="@color/green_dark" />-->
+
+            <ImageView
+                android:id="@+id/pic"
+                android:layout_width="@dimen/_20ssp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="@dimen/_16ssp"
+                android:src="@drawable/pick_location">
+
+            </ImageView>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_37ssp"
+        android:layout_marginLeft="@dimen/_45ssp"
+        android:layout_marginTop="@dimen/_15ssp"
+        android:layout_marginRight="@dimen/_45ssp"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+        <TextView
+            android:id="@+id/cafe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/_8ssp"
+            android:layout_weight="1"
+            android:background="@drawable/white_button"
+            android:fontFamily="@font/noor_bold"
+            android:gravity="center"
+            android:text="كافيهات"
+            android:textColor="@color/green_dark2"
+            android:textSize="@dimen/_12ssp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/Restaurantsf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_8ssp"
+            android:layout_weight="1"
+            android:background="@drawable/green_button"
+            android:fontFamily="@font/noor_bold"
+            android:gravity="center"
+            android:text="مطاعم"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12ssp">
+
+        </TextView>
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10ssp"
+        android:layout_marginBottom="@dimen/_80ssp"
+        android:paddingBottom="@dimen/_100ssp"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_30ssp"
+                android:layout_marginLeft="@dimen/_20ssp"
+                android:layout_marginRight="@dimen/_20ssp">
+
+                <ImageView
+                    android:id="@+id/restrant"
+                    android:layout_width="@dimen/_25ssp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:src="@drawable/res_bg">
+
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/title1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="5dp"
+                    android:layout_toStartOf="@+id/restrant"
+                    android:fontFamily="@font/noor_bold"
+                    android:gravity="center"
+                    android:text="مطاعم عائلات"
+                    android:textColor="@color/green_dark2"
+                    android:textSize="@dimen/_12ssp">
+
+                </TextView>
+
+                <ImageView
+                    android:id="@+id/all_1"
+                    android:layout_width="@dimen/_30ssp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp"
+                    android:background="@drawable/icon_gray_box"
+                    android:padding="@dimen/_5ssp"
+                    android:src="@drawable/all_categry_icon" />
+            </RelativeLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/Family_Restaurants"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5ssp"
+                android:orientation="horizontal"
+                app:reverseLayout="true">
+
+            </androidx.recyclerview.widget.RecyclerView>
+
+            <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10ssp"
+                ads:adSize="BANNER"
+                app:adUnitId="ca-app-pub-3940256099942544/6300978111"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent">
+
+            </com.google.android.gms.ads.AdView>
+
+            // app>> app:adUnitId="ca-app-pub-9739571586618472/7371247694"
+            // test>> app:adUnitId="ca-app-pub-3940256099942544/6300978111"
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1ssp"
+                android:layout_marginLeft="@dimen/_20ssp"
+                android:layout_marginTop="@dimen/_10ssp"
+                android:layout_marginRight="@dimen/_20ssp"
+                android:layout_marginBottom="@dimen/_10ssp"
+                android:background="@color/green_dark2">
+
+            </View>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_30ssp"
+                android:layout_marginLeft="@dimen/_20ssp"
+                android:layout_marginRight="@dimen/_20ssp">
+
+                <ImageView
+                    android:id="@+id/brand"
+                    android:layout_width="@dimen/_25ssp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:src="@drawable/res_bg">
+
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/title2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="5dp"
+                    android:layout_toStartOf="@+id/brand"
+                    android:fontFamily="@font/noor_bold"
+                    android:gravity="center"
+                    android:text=" اشهر المطاعم   مكه"
+                    android:textColor="@color/green_dark2"
+                    android:textSize="@dimen/_12ssp">
+
+                </TextView>
+
+                <ImageView
+                    android:id="@+id/all_2"
+                    android:layout_width="@dimen/_30ssp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp"
+                    android:background="@drawable/icon_gray_box"
+                    android:padding="@dimen/_5ssp"
+                    android:src="@drawable/all_categry_icon" />
+            </RelativeLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/All_Brand"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5ssp"
+                android:layout_marginBottom="@dimen/_5ssp"
+                android:orientation="horizontal">
+            </androidx.recyclerview.widget.RecyclerView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1ssp"
+                android:layout_marginLeft="@dimen/_20ssp"
+                android:layout_marginTop="@dimen/_10ssp"
+                android:layout_marginRight="@dimen/_20ssp"
+                android:layout_marginBottom="@dimen/_10ssp"
+                android:background="@color/green_dark2">
+
+            </View>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_30ssp"
+                android:layout_marginLeft="@dimen/_20ssp"
+                android:layout_marginRight="@dimen/_20ssp">
+
+                <ImageView
+                    android:id="@+id/restrantt"
+                    android:layout_width="@dimen/_25ssp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:src="@drawable/res_bg">
+
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/title3"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="5dp"
+                    android:layout_toStartOf="@+id/restrantt"
+                    android:fontFamily="@font/noor_bold"
+                    android:gravity="center"
+                    android:text="مطاعم عائلات"
+                    android:textColor="@color/green_dark2"
+                    android:textSize="@dimen/_12ssp">
+
+                </TextView>
+
+                <ImageView
+                    android:id="@+id/all_3"
+                    android:layout_width="@dimen/_30ssp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp"
+                    android:background="@drawable/icon_gray_box"
+                    android:padding="@dimen/_5ssp"
+                    android:src="@drawable/all_categry_icon" />
+            </RelativeLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/maka_Restaurants"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5ssp"
+                android:orientation="horizontal"
+                app:reverseLayout="true">
+
+            </androidx.recyclerview.widget.RecyclerView>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1ssp"
+                android:layout_marginLeft="@dimen/_20ssp"
+                android:layout_marginTop="@dimen/_10ssp"
+                android:layout_marginRight="@dimen/_20ssp"
+                android:layout_marginBottom="@dimen/_10ssp"
+                android:background="@color/green_dark2">
+
+            </View>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_30ssp"
+                android:layout_marginLeft="@dimen/_20ssp"
+                android:layout_marginRight="@dimen/_20ssp">
+
+                <ImageView
+                    android:id="@+id/restrannt"
+                    android:layout_width="@dimen/_25ssp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:src="@drawable/res_bg">
+
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/title4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="5dp"
+                    android:layout_toStartOf="@+id/restrannt"
+                    android:fontFamily="@font/noor_bold"
+                    android:gravity="center"
+                    android:text="مطاعم 4"
+                    android:textColor="@color/green_dark2"
+                    android:textSize="@dimen/_12ssp">
+
+                </TextView>
+
+                <ImageView
+                    android:id="@+id/all_4"
+                    android:layout_width="@dimen/_30ssp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp"
+                    android:background="@drawable/icon_gray_box"
+                    android:padding="@dimen/_5ssp"
+                    android:src="@drawable/all_categry_icon" />
+            </RelativeLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/fourth_Restaurants"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5ssp"
+                android:orientation="horizontal"
+                app:reverseLayout="true">
+            </androidx.recyclerview.widget.RecyclerView>
+
+            <TextView
+                android:id="@+id/All_Restaurants"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_30ssp"
+                android:layout_marginLeft="@dimen/_100ssp"
+                android:layout_marginTop="@dimen/_40ssp"
+                android:layout_marginRight="@dimen/_100ssp"
+                android:layout_marginBottom="@dimen/_30ssp"
+                android:background="@drawable/send"
+                android:fontFamily="@font/noor_bold"
+                android:gravity="center"
+                android:text="كل المطاعم"
+                android:textColor="@color/white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_90ssp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginBottom="-18dp"
+                app:srcCompat="@drawable/bg2" />
+        </LinearLayout>
+
+    </ScrollView>
+
+    <include
+        layout="@layout/select_town_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:id="@+id/select_town"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </include>
+<!--
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />-->
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
